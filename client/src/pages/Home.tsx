@@ -46,7 +46,7 @@ export default function Home() {
           <div className="flex items-center justify-between">
             <div className="flex items-center gap-2">
               <img
-                src="/sportlink-app-icon.png"
+                src="/sportlink-icon.png"
                 alt="SportLink logo"
                 className="w-10 h-10 rounded-xl object-cover"
               />
@@ -333,7 +333,7 @@ export default function Home() {
 
           <div className="max-w-6xl mx-auto">
             <div className="bg-card rounded-lg border border-border overflow-hidden shadow-lg mb-8">
-              <div className="relative w-full bg-muted/50 flex items-center justify-center" style={{ maxHeight: "450px" }}>
+              <div className="relative w-full bg-muted/50 flex items-center justify-center" style={{ height: "450px" }}>
                 <img
                   src={screenshots[selectedScreenshot].src}
                   alt={screenshots[selectedScreenshot].title}
